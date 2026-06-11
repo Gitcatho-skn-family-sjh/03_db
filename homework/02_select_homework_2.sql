@@ -35,10 +35,6 @@ select
 from
     employee e
 join
-    department d
-on
-    e.DEPT_CODE = d.DEPT_ID
-join
     job j
 on
     j.JOB_CODE = e.JOB_CODE
